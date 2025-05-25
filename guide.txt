@@ -1,0 +1,13 @@
+home is the index page showing everything
+about tells us what the company is entierly involved index
+services tell us about free and safe deliverilies, repair services, gadets quality and warrant, 100% secure payments, swap deals
+blogs gives us updates for upcoming phones and gadets and any futre increase of any sort
+produts shows what we are selling in details
+- phones shows all kind of phones
+- laptops shows all kind of laptops
+- watches shows all kind of smarts watches
+- speakers shows all speakers in stock
+- games shows ps and game pads
+- smart gadets shows smart home accessories like tv glasses and other smart techonolgies
+contact is the page to enable the users reach the supplies incase ofa ny complications
+sign in helps to login in and out of the website
