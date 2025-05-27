@@ -1,0 +1,49 @@
+nav{
+    background: black;
+    transition: background-color 0.3s ease-in-out;
+}
+nav ul a:hover {
+    text-decoration: underline;
+}
+main{
+    margin-top: 50px;
+}
+.produce{
+    background-color: rgb(51, 178, 228);
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+.produce img{
+    width: 100%;
+    height: 400px;
+}
+.produce .btn{
+    background-color: rgb(51, 178, 228);
+    color: white;
+}
+.produce .btn:hover{
+    background-color: black;
+    color: rgb(51, 178, 228);
+    scale: 0.95;
+}
+.fa-star{
+    color: gold;
+}
+.bill1{
+    background-color: rgb(51, 178, 228);
+    position: absolute;
+    bottom: 155;
+    transition: 0.5s ease;
+    opacity: 0;
+    width: 100%;
+    cursor: pointer;
+}
+.bill1:hover{
+    opacity: 1;   
+}
+.hoe:hover{
+    text-decoration: underline gainsboro;
+}
+footer{
+    background-color: rgb(51, 178, 228);
+}

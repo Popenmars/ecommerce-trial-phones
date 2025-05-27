@@ -1,0 +1,17 @@
+nav{
+    background: black;
+    transition: background-color 0.3s ease-in-out;
+}
+nav ul a:hover {
+    text-decoration: underline;
+}
+main{
+    margin-top: 50px;
+}
+.up img{
+    width: 550px;
+    height: 350px;
+}
+footer{
+    background-color: rgb(51, 178, 228);
+}

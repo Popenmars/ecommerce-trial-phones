@@ -1,0 +1,189 @@
+/* body{
+    overflow-x: hidden;
+} */
+nav{
+    background: black;
+    transition: background-color 0.3s ease-in-out;
+}
+nav ul a:hover {
+    text-decoration: underline;
+}
+main{
+    margin-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../img/jacyban.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+}
+main h1{
+    font-size: 65;
+}
+main h4{
+    color: rgb(51, 178, 228);
+}
+main .deal{
+    padding-top: 100px;
+    text-align: center;
+}
+main .btn{
+    background-color: rgb(51, 178, 228);
+    color: white;
+}
+main .btn:hover{
+    background-color: white;
+    color: rgb(51, 178, 228);
+}
+.services .box{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    padding: 25px;
+}
+.produce{
+    background-color: rgb(51, 178, 228);
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+.produce img{
+    width: 100%;
+    height: 400px;
+}
+.produce .btn{
+    background-color: rgb(51, 178, 228);
+    color: white;
+}
+.produce .btn:hover{
+    background-color: black;
+    color: rgb(51, 178, 228);
+    scale: 0.95;
+}
+.fa-star{
+    color: gold;
+}
+.bill1{
+    background-color: rgb(51, 178, 228);
+    position: absolute;
+    bottom: 155;
+    transition: 0.5s ease;
+    opacity: 0;
+    width: 100%;
+    cursor: pointer;
+}
+.bill1:hover{
+    opacity: 1;   
+}
+.about{
+    background-color: rgb(51, 178, 228);
+    color: white;
+}
+.about .btn{
+    background-color: white;
+    color: rgb(51, 178, 228);
+}
+.about .btn:hover{
+    background-color: black;
+    color: rgb(51, 178, 228);
+}
+.flow{
+    display: flex;
+    gap: 2rem;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.flow::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    width: 250px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card:hover{
+    scale: 0.95;
+}
+.card .btn{
+    background-color: rgb(51, 178, 228);
+    color: white;
+}
+.card .btn:hover{
+    background-color: black;
+    color: rgb(51, 178, 228);
+}
+.card img{
+    height: fit-content;
+}
+time{
+    color: gray;
+    font-family: monospace;
+}
+.flow .ex {
+    background-color: rgb(51, 178, 228);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+    margin-top: 200px;
+}
+.flow .ex:hover{
+    background-color: black;
+    color: rgb(51, 178, 228);
+    transform: scale(1.2);
+}
+.hoe:hover{
+    text-decoration: underline gainsboro;
+}
+/* .bill2{
+    position: absolute;
+    background-color: rgba(51, 178, 228, 0.61);
+    border-radius: 50%;
+    font-size: 60px;
+    right: 0;
+    bottom: 160;
+    opacity: 0;
+}
+.bill2:hover{
+    opacity: 1;
+} */
+.contact img{
+    width: 50px;
+    height: 50px;
+}
+.pace{
+    box-shadow: 0px 0px 5px rgb(51, 178, 228);
+    cursor: pointer;
+}
+.pace:hover{
+    scale: 1.1;
+}
+.review .carousel .last {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(51, 178, 228);
+    padding: 100px;
+    font-size: 17px;
+}
+.last img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.support{
+    position: fixed;
+    bottom: 70;
+    right: 15;
+    background-color: rgb(51, 178, 228);
+    border-radius: 50%;
+}
+.support img{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    background-color: rgb(51, 178, 228);
+}
+
+
+

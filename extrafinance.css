@@ -1,0 +1,13 @@
+main{
+    background: purple;
+    margin: 20px 400px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px 15px black;
+    height: 350px;
+}
+main h1 {
+    color: gold;
+}
+

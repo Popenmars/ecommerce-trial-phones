@@ -1,0 +1,40 @@
+nav{
+    background: black;
+    transition: background-color 0.3s ease-in-out;
+}
+nav ul a:hover {
+    text-decoration: underline;
+}
+main{
+    margin-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../img/aboutus.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+main h1{
+    color: rgb(51, 178, 228);
+    font-size: 65;
+}
+.hero img{
+    width: 500px;
+    height: 500px;
+}
+.hero .btn{
+    background-color: rgb(51, 178, 228);
+    color: white;
+}
+.hero .btn:hover{
+    background-color: black;
+    color: rgb(51, 178, 228);
+}
+.team img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border-bottom: 10px solid goldenrod;
+    border-left: 10px solid goldenrod;
+}
+footer{
+    background-color: rgb(51, 178, 228);
+}

@@ -1,0 +1,28 @@
+nav{
+    background: black;
+    transition: background-color 0.3s ease-in-out;
+}
+nav ul a:hover {
+    text-decoration: underline;
+}
+main{
+    margin-top: 50px;
+}
+.up img{
+    width: 400px;
+    height: 500px;
+}
+.fa-star, .fa-share, .fa-heart{
+    color: gold;
+}
+.btn{
+    background-color: rgb(51, 178, 228);
+    color: white;
+}
+.btn:hover{
+    background-color: black;
+    color: rgb(51, 178, 228);
+}
+footer{
+    background-color: rgb(51, 178, 228);
+}
